@@ -1,0 +1,459 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+
+a {
+  font-family: "Ubuntu", sans-serif;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  background-color: #e3ecc2;
+}
+
+html {
+  font-size: 15px;
+}
+
+header {
+  width: 100%;
+  background-image: url(../img/banner.png);
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  height: 130vh;
+  color: #fff;
+  position: relative;
+}
+header nav {
+  margin-top: 2rem;
+}
+header nav .navbar-header .navbar-toggle {
+  border-color: #fff;
+}
+header nav .navbar-header .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+header nav .navbar-collapse .navbar-right li {
+  margin-left: 2rem;
+}
+header nav .navbar-collapse .navbar-right li a {
+  font-size: 1.2rem;
+  color: #fff;
+  font-weight: 500;
+}
+header nav .navbar-collapse .navbar-right li a:hover {
+  background: none;
+}
+header .banner-text {
+  text-align: center;
+  margin-top: 10%;
+  position: relative;
+}
+header .banner-text h1 {
+  font-size: 6rem;
+  font-weight: bold;
+  line-height: 6rem;
+  margin-bottom: 2rem;
+}
+header .banner-text p {
+  font-size: 2rem;
+  font-weight: 400;
+}
+header .banner-text::after {
+  content: "";
+  width: 932px;
+  height: 971px;
+  right: -104px;
+  bottom: -165%;
+  background-image: url(../img/7.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  z-index: -1;
+}
+
+header::before {
+  content: "";
+  width: 200px;
+  height: 120px;
+  left: 135px;
+  bottom: -55px;
+  background-image: url(../img/banner-left.png);
+  position: absolute;
+}
+
+header::after {
+  content: "";
+  width: 125px;
+  height: 145px;
+  right: 10px;
+  top: 46%;
+  background-image: url(../img/banner-left.png);
+  position: absolute;
+}
+
+/*------------header end------*/
+/*------------popular menu start------*/
+.popular_menu {
+  padding: 5rem 0;
+}
+.popular_menu h1 {
+  font-weight: bold;
+  color: #7287ae;
+}
+.popular_menu .menu-area {
+  margin-top: 5rem;
+}
+.popular_menu .menu-area .menu {
+  background-color: #fff;
+  margin: 0.7rem;
+  box-shadow: 0 0 15px black;
+}
+.popular_menu .menu-area .menu img {
+  width: 100%;
+}
+.popular_menu .menu-area .menu h3 {
+  padding-left: 1rem;
+  font-weight: 500;
+  font-size: 2.5rem;
+}
+.popular_menu .menu-area .menu p {
+  font-size: 1.5rem;
+  padding: 1.3rem 0;
+  padding-left: 1rem;
+}
+.popular_menu button {
+  width: 334px;
+  height: 75px;
+  border-radius: 50px;
+  margin-top: 5rem;
+  position: relative;
+}
+.popular_menu button a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.popular_menu::after {
+  content: "";
+  width: 151px;
+  height: 116px;
+  right: 5px;
+  bottom: -1180px;
+  background-image: url(../img/menu\ b.png);
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+/*------------popular menu end------*/
+/*-----------discount start-----*/
+.discount {
+  width: 100%;
+  background-color: #fff;
+}
+.discount img {
+  width: 100%;
+}
+.discount .left {
+  padding: 0;
+}
+.discount .left .left-text {
+  margin: 5.2rem;
+}
+.discount .right {
+  padding: 0;
+}
+.discount .right .right-text {
+  margin: 5.2rem;
+}
+.discount h2 {
+  font-weight: bold;
+  font-size: 3.5rem;
+}
+.discount p {
+  font-size: 2rem;
+  margin: 3rem 0;
+}
+.discount button {
+  width: 334px;
+  height: 75px;
+  border-radius: 50px;
+  margin: 3rem 0;
+}
+.discount a {
+  color: #fff;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+/*-----------discount end-----*/
+/*----------ORDER START-----*/
+.order {
+  width: 100%;
+  background-color: #7287ae;
+  padding: 8rem 0;
+  color: #fff;
+}
+.order h1 {
+  font-weight: bold;
+  margin-bottom: 5rem;
+}
+.order .card h1 {
+  width: 20%;
+  margin: 0 auto;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 50%;
+  color: #7287ae;
+}
+.order .card h2 {
+  font-size: 3rem;
+  margin: 2rem 0;
+}
+.order .card p {
+  font-size: 1.3rem;
+}
+
+/*-----------ORDER end-----*/
+/*-----------delivery start-----*/
+.delivery {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/delivery.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+  padding: 5rem 0;
+}
+.delivery h1 {
+  font-size: 5rem;
+  font-weight: 900;
+  margin-bottom: 3rem;
+  margin-top: 4rem;
+  color: #7287ae;
+}
+.delivery p {
+  font-size: 2rem;
+  margin-bottom: 5rem;
+  color: #7287ae;
+}
+.delivery button {
+  width: 442px;
+  height: 99px;
+  border-radius: 50px;
+}
+.delivery button a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+/*-----------delivery end-----*/
+/*-----------waiter section start-----*/
+.waiter {
+  width: 100%;
+  text-align: center;
+  padding: 5rem 0;
+}
+.waiter h1 {
+  font-size: 9rem;
+  font-weight: 900;
+  margin-bottom: 0;
+}
+.waiter p {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+.waiter h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+.waiter img {
+  padding: 1.5rem;
+}
+
+/*-----------waiter section end-----*/
+/*-----------footer start-----*/
+footer {
+  width: 100%;
+  background-image: url(../img/footer.png);
+  background-repeat: no-repeat;
+  color: #fff;
+  position: relative;
+}
+footer h2 {
+  font-size: 3rem;
+  margin-top: 17rem;
+  margin-bottom: 2rem;
+}
+footer p {
+  font-size: 1.5rem;
+}
+
+footer::after {
+  content: "";
+  width: 883px;
+  height: 714px;
+  left: 0;
+  top: -211px;
+  background-image: url(../img/footer\ p.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: -1;
+}
+
+/*-----------footer end-----*/
+@media (max-width: 1200px) {
+  header .banner-text::after {
+    right: -30px;
+    bottom: -95%;
+  }
+}
+@media (max-width: 992px) {
+  header .banner-text {
+    margin-top: 5%;
+  }
+  header .banner-text h1 {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+  header .banner-text::after {
+    right: -25px;
+    bottom: -170%;
+  }
+  .popular_menu .menu-area .menu p {
+    font-size: 1.3rem;
+    padding: 0.6rem 0;
+    padding-left: 1rem;
+  }
+  .popular_menu button {
+    width: 280px;
+    height: 70px;
+  }
+  .popular_menu::after {
+    bottom: -1000px;
+  }
+  .discount .left .left-text {
+    margin: 3.2rem;
+  }
+  .discount h2 {
+    font-size: 2.5rem;
+  }
+  .discount p {
+    font-size: 1.2rem;
+    margin: 1.4rem 0;
+  }
+  .discount button {
+    width: 280px;
+    height: 70px;
+    margin: 3rem 0;
+  }
+  .order .card h1 {
+    width: 25%;
+  }
+  .delivery h1 {
+    margin-bottom: 1rem;
+    margin-top: 0;
+  }
+  .delivery p {
+    margin-bottom: 2rem;
+  }
+  .delivery button {
+    width: 350px;
+    height: 90px;
+  }
+  footer h2 {
+    font-size: 2rem;
+  }
+  footer p {
+    font-size: 1rem;
+  }
+  footer::after {
+    top: -270px;
+  }
+}
+@media (max-width: 768px) {
+  header .banner-text::after {
+    right: -24px;
+    bottom: -110%;
+  }
+  header nav .navbar-collapse .navbar-right li {
+    margin-left: 0;
+  }
+  .popular_menu .menu-area .menu {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  .discount .left {
+    box-shadow: 0 0 15px black;
+  }
+  .discount .right {
+    box-shadow: 0 0 15px black;
+  }
+  .order .card h1 {
+    width: 10%;
+  }
+  .delivery h1 {
+    font-size: 3rem;
+  }
+  .delivery p {
+    font-size: 1.4rem;
+  }
+  .delivery button {
+    width: 300px;
+    height: 90px;
+  }
+  .waiter p {
+    font-size: 1.4rem;
+  }
+  footer {
+    text-align: center;
+    background-color: #7287ae;
+  }
+  footer h2 {
+    margin-top: 5rem;
+  }
+  footer::after {
+    left: -115px;
+    top: -370px;
+  }
+}
+@media (max-width: 576px) {
+  header .banner-text::after {
+    right: -15px;
+    bottom: -197%;
+  }
+  .order .card h1 {
+    width: 13%;
+  }
+  .delivery p {
+    font-size: 1rem;
+  }
+  .delivery button {
+    width: 190px;
+    height: 65px;
+  }
+  .delivery button a {
+    font-size: 1rem;
+  }
+  footer::after {
+    left: -315px;
+  }
+}
+@media (max-width: 412px) {
+  .order .card h1 {
+    width: 18%;
+  }
+  footer::after {
+    left: -475px;
+  }
+}/*# sourceMappingURL=style.css.map */

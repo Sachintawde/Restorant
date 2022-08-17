@@ -285,6 +285,7 @@ footer{
     width: 100%;
     background-image: url(../img/footer.png);
     background-repeat: no-repeat;
+    background-size: cover;
     color: #fff;
     position: relative;
     h2{
@@ -463,7 +464,8 @@ footer::after{
         }
     }
     footer::after{
-        left: -115px;
+        left: 0;
+        width: 100%;
         top: -370px;
     }
 }
@@ -494,7 +496,8 @@ footer::after{
         }
     }
     footer::after{
-        left: -315px;
+        left: 0;
+        width: 100%;
     }
 }
 @media (max-width:412px){
@@ -506,6 +509,7 @@ footer::after{
         }
     }
     footer::after{
-        left: -475px;
+        left: 0;
+        width: 100%;
     }
 }
